@@ -1,0 +1,15 @@
+Dry run: device 1, axis 1, no connection made
+Home first, then 10 moves at 25.0 mm/s, tolerance 0.01 mm
+After each move: 200 ms pause, then re-read until two reads agree within 0.1 um (at most 10 reads)
+  move   1  cycle 1  start ->    5.000 mm
+  move   2  cycle 1  end   ->   45.000 mm
+  move   3  cycle 2  start ->    5.000 mm
+  move   4  cycle 2  end   ->   45.000 mm
+  move   5  cycle 3  start ->    5.000 mm
+  move   6  cycle 3  end   ->   45.000 mm
+  move   7  cycle 4  start ->    5.000 mm
+  move   8  cycle 4  end   ->   45.000 mm
+  move   9  cycle 5  start ->    5.000 mm
+  move  10  cycle 5  end   ->   45.000 mm
+Minimum motion time after homing (constant speed, no acceleration): 14.6 s
+Would write: scan.csv

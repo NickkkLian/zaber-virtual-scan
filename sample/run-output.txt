@@ -1,0 +1,24 @@
+Found 1 device(s):
+  1: address 1  X-LSM050A-E03  (serial not reported, 1 axis)
+Axis travel: 0.000 to 50.800 mm
+Encoder: yes (encoder.pos); error = encoder - commanded
+Homing ...
+Homed, counter 0.0000 mm
+move   1 start forward  commanded    5.000  counter    5.000006  encoder    5.000244  error +0.000244 mm  ok  (2 reads, 0.66 s)
+move   2 end   forward  commanded   45.000  counter   45.000005  encoder   45.000672  error +0.000672 mm  ok  (2 reads, 2.15 s)
+move   3 start backward commanded    5.000  counter    5.000006  encoder    5.000244  error +0.000244 mm  ok  (2 reads, 2.09 s)
+move   4 end   forward  commanded   45.000  counter   45.000005  encoder   45.000672  error +0.000672 mm  ok  (2 reads, 2.09 s)
+move   5 start backward commanded    5.000  counter    5.000006  encoder    5.000244  error +0.000244 mm  ok  (2 reads, 2.15 s)
+move   6 end   forward  commanded   45.000  counter   45.000005  encoder   45.000672  error +0.000672 mm  ok  (2 reads, 2.14 s)
+move   7 start backward commanded    5.000  counter    5.000006  encoder    5.000244  error +0.000244 mm  ok  (2 reads, 2.13 s)
+move   8 end   forward  commanded   45.000  counter   45.000005  encoder   45.000672  error +0.000672 mm  ok  (2 reads, 2.10 s)
+move   9 start backward commanded    5.000  counter    5.000006  encoder    5.000244  error +0.000244 mm  ok  (2 reads, 2.14 s)
+move  10 end   forward  commanded   45.000  counter   45.000005  encoder   45.000672  error +0.000672 mm  ok  (2 reads, 2.10 s)
+
+Summary: 10 of 10 moves, max |error| 0.000672 mm (encoder minus commanded), 0 outside 0.01 mm
+  encoder spread at end, arrived forward: 0.000000 mm peak to peak (5 arrivals)
+  encoder spread at start, arrived backward: 0.000000 mm peak to peak (4 arrivals)
+  encoder spread at start, arrived forward: n/a (1 arrival)
+  backlash at start: +0.000000 mm (mean arrived backward minus mean arrived forward)
+  reads per move: 2
+CSV: sample/scan.csv

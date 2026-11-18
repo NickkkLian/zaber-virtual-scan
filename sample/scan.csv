@@ -1,0 +1,11 @@
+move,cycle,label,direction,commanded_mm,counter_mm,encoder_mm,error_mm,error_basis,reads,stable,within_tolerance,duration_s
+1,1,start,forward,5.0,5.000006,5.000244,0.000244,encoder,2,True,True,0.656
+2,1,end,forward,45.0,45.000005,45.000672,0.000672,encoder,2,True,True,2.148
+3,2,start,backward,5.0,5.000006,5.000244,0.000244,encoder,2,True,True,2.093
+4,2,end,forward,45.0,45.000005,45.000672,0.000672,encoder,2,True,True,2.09
+5,3,start,backward,5.0,5.000006,5.000244,0.000244,encoder,2,True,True,2.149
+6,3,end,forward,45.0,45.000005,45.000672,0.000672,encoder,2,True,True,2.144
+7,4,start,backward,5.0,5.000006,5.000244,0.000244,encoder,2,True,True,2.132
+8,4,end,forward,45.0,45.000005,45.000672,0.000672,encoder,2,True,True,2.101
+9,5,start,backward,5.0,5.000006,5.000244,0.000244,encoder,2,True,True,2.139
+10,5,end,forward,45.0,45.000005,45.000672,0.000672,encoder,2,True,True,2.101
